@@ -1,0 +1,136 @@
+.sub-commmon-body-class {
+  background: #fff;
+  margin-bottom: -51px;
+  padding-bottom: 100px;
+}
+.sub-commmon-body-class .sub-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.sub-commmon-body-class .sub-container .single-flex {
+  display: flex;
+  gap: 50px;
+}
+@media (max-width: 475px) {
+  .sub-commmon-body-class .sub-container .single-flex {
+    display: grid;
+    padding: 0 10px;
+  }
+}
+.sub-commmon-body-class .sub-container .single-flex .left {
+  width: 70%;
+}
+@media (max-width: 475px) {
+  .sub-commmon-body-class .sub-container .single-flex .left {
+    width: 100%;
+  }
+}
+.sub-commmon-body-class .sub-container .single-flex .left .single-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .bottom-header {
+  display: flex;
+  color: #f40045;
+  margin-bottom: 20px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .bottom-header p {
+  font-size: 16px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .bottom-header a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #f40045;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .post-img {
+  margin-bottom: 20px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .entry-content {
+  line-height: 1.7;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .entry-content p {
+  font-size: 18px;
+  color: #0c0c0c;
+  margin-bottom: 15px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .entry-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .entry-content a {
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .user {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 20px 50px 20px 0;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .user img {
+  border-radius: 50px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .related_posts h3 {
+  font-size: 32px;
+  color: #54595F;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .related_posts .post-loop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .related_posts .post-loop li {
+  list-style-type: none;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .related_posts .post-loop li a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+.sub-commmon-body-class .sub-container .single-flex .left .related_posts .post-loop li a .post-loop__title {
+  color: #0c0c0c;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.sub-commmon-body-class .sub-container .single-flex .right {
+  width: 30%;
+  margin-top: 85px;
+}
+@media (max-width: 475px) {
+  .sub-commmon-body-class .sub-container .single-flex .right {
+    width: 100%;
+  }
+}
+.sub-commmon-body-class .sub-container .single-flex .right h2 {
+  font-size: 32px;
+  color: #54595F;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sub-commmon-body-class .sub-container .single-flex .right ul {
+  display: grid;
+  gap: 25px;
+}
+.sub-commmon-body-class .sub-container .single-flex .right ul a {
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  display: grid;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.sub-commmon-body-class .sub-container .single-flex .right ul time {
+  color: #adadad;
+  font-size: 12px;
+}/*# sourceMappingURL=single.css.map */

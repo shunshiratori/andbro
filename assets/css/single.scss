@@ -1,0 +1,162 @@
+@import '_func';
+
+.sub-commmon-body-class {
+  background: #fff;
+  margin-bottom: -51px;
+  padding-bottom: 100px;
+
+  .sub-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+    .single-flex {
+      display: flex;
+      gap: 50px;
+
+      @include mq('sp') {
+        display: grid;
+        padding: 0 10px;
+      }
+
+      .left {
+        width: 70%;
+
+        @include mq('sp') {
+          width: 100%;
+        }
+
+        .single-title {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+
+        .bottom-header {
+          display: flex;
+          color: #f40045;
+          margin-bottom: 20px;
+
+          p {
+            font-size: 16px;
+          }
+
+          a {
+            font-size: 16px;
+            text-decoration: none;
+            color: #f40045;
+          }
+        }
+
+        .post-img {
+          margin-bottom: 20px;
+        }
+
+        .entry-content {
+          line-height: 1.7;
+
+          p {
+            font-size: 18px;
+            color: #0c0c0c;
+            margin-bottom: 15px;
+          }
+
+          h2 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+          }
+
+          a {
+            font-weight: 400;
+            color: #000;
+            text-decoration: none;
+          }
+        }
+
+        .user {
+          border-top: 1px solid #dddddd;
+          border-bottom: 1px solid #dddddd;
+          padding: 20px 50px 20px 0;
+          margin-bottom: 50px;
+          margin-top: 25px;
+          display: flex;
+          gap: 50px;
+          align-items: center;
+
+          img {
+            border-radius: 50px;
+          }
+        }
+
+        .related_posts {
+          h3 {
+            font-size: 32px;
+            color: #54595F;
+            font-weight: 600;
+            margin-bottom: 40px;
+          }
+
+          .post-loop {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+
+            li {
+              list-style-type: none;
+
+              a {
+                color: #0c0c0c;
+                text-decoration: none;
+
+                .post-loop__title {
+                  color: #0c0c0c;
+                  font-size: 18px;
+                  font-weight: 400;
+                  margin-top: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        width: 30%;
+        margin-top: 85px;
+
+        @include mq('sp') {
+          width: 100%;
+        }
+
+        h2 {
+          font-size: 32px;
+          color: #54595F;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          display: grid;
+          gap: 25px;
+
+          a {
+            color: #333;
+            font-size: 18px;
+            text-decoration: none;
+            display: grid;
+            font-weight: 600;
+            font-family: 'Raleway', sans-serif;
+
+          }
+
+          time {
+            color: #adadad;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

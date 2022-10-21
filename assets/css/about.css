@@ -1,0 +1,68 @@
+.about-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/about/about-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.about-container {
+  margin-top: 100px;
+}
+.about-container .top-about h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about-container .top-about .display-flex {
+  gap: 30px;
+}
+@media (max-width: 475px) {
+  .about-container .top-about .display-flex {
+    display: flex;
+  }
+}
+.about-container .top-about .display-flex .member-box {
+  width: 50%;
+}
+.about-container .top-about .display-flex .member-box img {
+  width: 100%;
+}
+.about-container .top-about .display-flex .member-box h2 {
+  font-size: 20px;
+  margin: 20px 0 5px;
+  font-weight: 600;
+}
+.about-container .top-about .display-flex .member-box p {
+  color: #272727;
+  font-size: 14px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.about-container .bottom-about {
+  margin-top: 50px;
+}
+.about-container .bottom-about h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about-container .bottom-about table {
+  border-collapse: collapse;
+  width: 100%;
+}
+@media (max-width: 475px) {
+  .about-container .bottom-about table tr {
+    width: 100%;
+    font-size: 13px;
+  }
+}
+.about-container .bottom-about table tr td {
+  padding: 10px;
+  width: 50%;
+}
+.about-container .bottom-about table tr th {
+  color: #777;
+  font-weight: 400;
+  width: 50%;
+}/*# sourceMappingURL=about.css.map */

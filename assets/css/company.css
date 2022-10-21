@@ -1,0 +1,97 @@
+.company-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/company/company-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.top-header {
+  margin-top: 50px;
+}
+.top-header .display-flex {
+  gap: 20px;
+}
+.top-header .display-flex .left {
+  width: 50%;
+}
+@media (max-width: 475px) {
+  .top-header .display-flex .left {
+    width: 100%;
+  }
+}
+.top-header .display-flex .left .top-h3 {
+  font-size: 24px;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.top-header .display-flex .left h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.top-header .display-flex .left p {
+  font-size: 14px;
+  color: #777;
+  line-height: 2;
+}
+.top-header .display-flex .right {
+  width: 50%;
+}
+@media (max-width: 475px) {
+  .top-header .display-flex .right {
+    width: 100%;
+  }
+}
+
+.menu-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+@media (max-width: 475px) {
+  .menu-flex {
+    display: grid;
+    gap: 20px;
+  }
+}
+.menu-flex a {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+@media (max-width: 475px) {
+  .menu-flex a {
+    text-align: center;
+  }
+}
+@media (min-width: 981px) {
+  .menu-flex a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    bottom: -10px;
+    transform: scale(0, 1);
+    transition: 0.3s;
+  }
+  .menu-flex a:hover {
+    color: #000;
+  }
+  .menu-flex a:hover::after {
+    transform: scale(1, 1);
+  }
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 300px;
+}/*# sourceMappingURL=company.css.map */

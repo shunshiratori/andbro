@@ -1,0 +1,123 @@
+.work-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/work-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.work-container {
+  margin-top: 50px;
+}
+.work-container .work-top .display-flex {
+  gap: 50px;
+  justify-content: center;
+}
+.work-container .work-top .display-flex .left {
+  width: 30%;
+}
+@media (max-width: 475px) {
+  .work-container .work-top .display-flex .left {
+    width: 100%;
+  }
+}
+.work-container .work-top .display-flex .left p {
+  margin-top: 50px;
+  color: #777;
+  font-size: 14px;
+}
+.work-container .work-top .display-flex .right a {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.work-container .work-wrapper {
+  margin-top: 50px;
+  padding: 50px;
+}
+@media (max-width: 475px) {
+  .work-container .work-wrapper {
+    padding: 50px 20px;
+  }
+}
+.work-container .work-wrapper h2 {
+  font-size: 80px;
+  font-weight: 600;
+  position: relative;
+  color: #fff;
+}
+.work-container .work-wrapper h2:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 85px;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+}
+.work-container .work-wrapper .post-loop {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 475px) {
+  .work-container .work-wrapper .post-loop {
+    margin-top: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.work-container .work-wrapper .post-loop li {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  border: 0 solid #818a91;
+  transition: 0.2s;
+}
+.work-container .work-wrapper .post-loop li:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
+.work-container .work-wrapper .post-loop li a {
+  text-decoration: none;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box {
+  background: #fff;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box .h-img-wrap {
+  height: 250px;
+  text-align: center;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box .h-img-wrap img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box .post-loop__date {
+  padding: 20px 30px;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box .post-loop__date h2 {
+  color: #333;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box .loop-time {
+  padding: 15px 30px;
+  border-top: 1px solid #eaeaea;
+}
+.work-container .work-wrapper .post-loop li a .post-loop-box .loop-time span {
+  color: #adadad;
+  font-size: 12px;
+}
+.work-container .work-wrapper .news-btn {
+  color: #FFFFFF;
+  background-color: rgba(97, 206, 112, 0);
+  border-style: solid;
+  border-radius: 10px;
+  padding: 15px 50px;
+  text-decoration: none;
+  margin: 20px auto 0;
+  display: table;
+}/*# sourceMappingURL=work.css.map */

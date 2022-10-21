@@ -1,0 +1,103 @@
+.common-body-class {
+  background: #fff;
+}
+
+.sns {
+  background: #fff;
+}
+
+.news-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/service-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.service-container {
+  margin-top: 50px;
+}
+.service-container .top-p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.service-container .service-wrapper .service-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+@media (max-width: 475px) {
+  .service-container .service-wrapper .service-flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.service-container .service-wrapper .service-flex .service-box {
+  margin: 0 50px;
+}
+@media (max-width: 475px) {
+  .service-container .service-wrapper .service-flex .service-box {
+    margin: 0;
+  }
+}
+.service-container .service-wrapper .service-flex .service-box a img {
+  margin-bottom: 40px;
+}
+.service-container .service-wrapper .service-flex .service-box h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.service-container .service-wrapper .service-flex .service-box p {
+  color: #777;
+  font-size: 14px;
+}
+.service-container .service-wrapper .elementor-hacks {
+  margin-top: 70px;
+  text-align: center;
+}
+.service-container .service-wrapper .elementor-hacks .el-title {
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+}
+.service-container .service-wrapper .elementor-hacks .el-hr {
+  border-color: #000;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+.service-container .service-wrapper .elementor-hacks .el-font {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.service-container .service-wrapper .elementor-hacks .elementor-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 475px) {
+  .service-container .service-wrapper .elementor-hacks .elementor-flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.service-container .service-wrapper .elementor-hacks .elementor-flex .elementor-box {
+  padding: 10px;
+}
+.service-container .service-wrapper .elementor-hacks .elementor-flex .elementor-box a img {
+  border-style: solid;
+  border-color: rgba(84, 89, 95, 0.368627451);
+  border-radius: 15px 15px 15px 15px;
+}
+.service-container .service-wrapper .elementor-hacks .elementor-flex .elementor-box h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+.service-container .service-wrapper .elementor-hacks .elementor-flex .elementor-box p {
+  color: #777;
+  font-size: 15px;
+}/*# sourceMappingURL=service.css.map */

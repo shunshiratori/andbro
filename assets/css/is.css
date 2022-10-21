@@ -1,0 +1,49 @@
+.company-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/is/is-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.top-header {
+  margin-top: 50px;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/company/company-logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+.top-header p {
+  color: #777;
+  font-size: 14px;
+}
+.top-header p:first-child {
+  margin-bottom: 50px;
+}
+
+.member-flex {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 200px;
+  justify-content: flex-end;
+}
+@media (max-width: 475px) {
+  .member-flex {
+    gap: 0;
+    justify-content: space-around;
+  }
+}
+.member-flex .member-box {
+  text-align: center;
+}
+.member-flex .member-box img {
+  border-radius: 50px;
+  width: 100px;
+}
+.member-flex .member-box p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}/*# sourceMappingURL=is.css.map */

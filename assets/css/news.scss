@@ -1,0 +1,109 @@
+@import '_func';
+
+.news-header {
+  background: linear-gradient(rgb(255 255 255 / 60%), rgb(255 255 255 / 60%)), url(../img/about-bg.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.news-wrapper {
+  padding: 50px;
+
+  @include mq('sp') {
+    padding: 50px 10px;
+  }
+
+  h2 {
+    font-size: 80px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 85px;
+      display: inline-block;
+      width: 60px;
+      height: 3px;
+      background-color: #fff;
+    }
+  }
+
+
+  .post-loop {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    @include mq('sp') {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    li {
+      box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+      border: 0 solid #818a91;
+      transition: 0.2s;
+
+      &:hover {
+        box-shadow: 0 0 30px 0 rgb(0 0 0 / 15%);
+      }
+
+      a {
+        text-decoration: none;
+
+        .post-loop-box {
+          background: #fff;
+
+          .h-img-wrap {
+            height: 250px;
+            text-align: center;
+
+            img {
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+
+          .post-loop__date {
+            padding: 20px 30px;
+
+            h2 {
+              color: #333;
+              font-size: 21px;
+              font-weight: 600;
+              margin-bottom: 20px;
+              line-height: 1.5;
+            }
+          }
+
+          .loop-time {
+            padding: 15px 30px;
+            border-top: 1px solid #eaeaea;
+
+            span {
+              color: #adadad;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .news-btn {
+    color: #FFFFFF;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    margin: 20px auto 0;
+    display: table;
+  }
+}

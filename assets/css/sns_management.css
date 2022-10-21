@@ -1,0 +1,120 @@
+.common-body-class {
+  background: #fff;
+}
+
+.sns {
+  background: #fff;
+}
+
+.service-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/web_management/web_management-bg.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.service-container {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.service-container .top-p {
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+}
+.service-container .service-wrapper {
+  margin-top: 100px;
+}
+.service-container .service-wrapper h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.service-container .service-wrapper .service-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 0;
+}
+@media (max-width: 475px) {
+  .service-container .service-wrapper .service-flex {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 20px;
+  }
+}
+.service-container .service-wrapper .service-flex .service-box {
+  margin: 0 50px;
+}
+@media (max-width: 475px) {
+  .service-container .service-wrapper .service-flex .service-box {
+    margin: 0;
+  }
+}
+.service-container .service-wrapper .service-flex .service-box h3 {
+  font-size: 12px;
+  color: rgb(36, 41, 48);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.service-container .service-wrapper .service-flex .service-box p {
+  font-size: 10px;
+  color: #777;
+}
+.service-container .service-wrapper .reason-flex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 475px) {
+  .service-container .service-wrapper .reason-flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.service-container .service-wrapper .reason-flex .service-box {
+  margin: 0 50px;
+}
+.service-container .service-wrapper .reason-flex .service-box h3 {
+  font-size: 12px;
+  color: rgb(36, 41, 48);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.service-container .service-wrapper .reason-flex .service-box p {
+  font-size: 10px;
+  color: #777;
+}
+
+.contact-wrapper {
+  background: #0070A7;
+  padding: 50px;
+}
+@media (max-width: 475px) {
+  .contact-wrapper {
+    padding: 50px 20px;
+  }
+}
+.contact-wrapper p {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.contact-wrapper .contact-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+.contact-wrapper .contact-box h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.5;
+}
+@media (max-width: 475px) {
+  .contact-wrapper .contact-box h2 {
+    padding: 0 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=sns_management.css.map */

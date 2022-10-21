@@ -1,0 +1,61 @@
+@import '_func';
+
+.sub-commmon-body-class {
+  background: #fff;
+
+  .sub-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .head {
+    display: grid;
+    gap: 20px;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+  }
+
+  .content {
+    margin-top: 50px;
+
+    @include mq('sp') {
+      padding: 0 20px;
+    }
+
+    p {
+      color: #777;
+      font-size: 12px;
+      margin-bottom: 50px;
+    }
+
+    .content-grid {
+      display: grid;
+      gap: 50px;
+
+      .content-box {
+        display: grid;
+        gap: 20px;
+
+        h2 {
+          font-size: 15px;
+        }
+
+        p {
+          color: #777;
+          font-size: 12px;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,12 @@
+// レスポンシブ時のコンテンツ幅設定
+$breakpoints: ('sp': "(max-width: 475px)",
+  'tab': "(max-width: 980px)",
+  'pc': "(min-width: 981px)",
+  'big': "(min-width: 1920px)"
+) !default;
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}

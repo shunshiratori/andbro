@@ -1,0 +1,95 @@
+.news-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/about-bg.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.news-wrapper {
+  padding: 50px;
+}
+@media (max-width: 475px) {
+  .news-wrapper {
+    padding: 50px 10px;
+  }
+}
+.news-wrapper h2 {
+  font-size: 80px;
+  font-weight: 600;
+  position: relative;
+  color: #fff;
+}
+.news-wrapper h2:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 85px;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+}
+.news-wrapper .post-loop {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 475px) {
+  .news-wrapper .post-loop {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.news-wrapper .post-loop li {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  border: 0 solid #818a91;
+  transition: 0.2s;
+}
+.news-wrapper .post-loop li:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
+.news-wrapper .post-loop li a {
+  text-decoration: none;
+}
+.news-wrapper .post-loop li a .post-loop-box {
+  background: #fff;
+}
+.news-wrapper .post-loop li a .post-loop-box .h-img-wrap {
+  height: 250px;
+  text-align: center;
+}
+.news-wrapper .post-loop li a .post-loop-box .h-img-wrap img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news-wrapper .post-loop li a .post-loop-box .post-loop__date {
+  padding: 20px 30px;
+}
+.news-wrapper .post-loop li a .post-loop-box .post-loop__date h2 {
+  color: #333;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.news-wrapper .post-loop li a .post-loop-box .loop-time {
+  padding: 15px 30px;
+  border-top: 1px solid #eaeaea;
+}
+.news-wrapper .post-loop li a .post-loop-box .loop-time span {
+  color: #adadad;
+  font-size: 12px;
+}
+.news-wrapper .news-btn {
+  color: #FFFFFF;
+  background-color: rgba(97, 206, 112, 0);
+  border-style: solid;
+  border-radius: 10px;
+  padding: 15px 50px;
+  text-decoration: none;
+  margin: 20px auto 0;
+  display: table;
+}/*# sourceMappingURL=news.css.map */

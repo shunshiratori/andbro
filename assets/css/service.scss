@@ -1,0 +1,123 @@
+@import '_func';
+
+.common-body-class {
+  background: #fff;
+}
+
+.sns {
+  background: #fff;
+}
+
+.news-header {
+  background: linear-gradient(rgb(255 255 255 / 60%), rgb(255 255 255 / 60%)), url(../img/service-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.service-container {
+  margin-top: 50px;
+
+  .top-p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  .service-wrapper {
+    .service-flex {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px;
+
+      @include mq('sp') {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .service-box {
+        margin: 0 50px;
+
+        @include mq('sp') {
+          margin: 0;
+        }
+
+        a {
+          img {
+            margin-bottom: 40px;
+          }
+        }
+
+        h2 {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 40px;
+          text-align: center;
+        }
+
+        p {
+          color: #777;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .elementor-hacks {
+      margin-top: 70px;
+      text-align: center;
+
+      .el-title {
+        font-size: 30px;
+        text-align: center;
+        display: inline-block;
+        background: #fff;
+      }
+
+      .el-hr {
+        border-color: #000;
+        margin-top: -15px;
+        margin-bottom: 50px;
+      }
+
+      .el-font {
+        margin-top: 20px;
+        text-align: center;
+        color: #777;
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+
+      .elementor-flex {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        @include mq('sp') {
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        .elementor-box {
+          padding: 10px;
+
+          a {
+            img {
+              border-style: solid;
+              border-color: #54595F5E;
+              border-radius: 15px 15px 15px 15px;
+            }
+          }
+
+          h2 {
+            font-size: 20px;
+            text-align: center;
+            margin: 30px 0;
+          }
+
+          p {
+            color: #777;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
